@@ -1,0 +1,32 @@
+body {
+   background-color: cyan;
+}
+
+h1 {
+   background-color: blue;
+   color: chocolate;
+}
+
+@keyframes example {
+   from {
+      box-shadow: 1px 1px 99px darkblue
+   }
+
+   to {
+      box-shadow: 1px 1px 99px cyan
+   }
+}
+
+canvas {
+   border: 5px solid white;
+   border-radius: 27px;
+   animation-name: example;
+   animation-duration: 4ms;
+   margin-top: 50px;
+   animation-iteration-count: infinite;
+}
+
+p {
+   padding-top: 10px;
+   font-size: 25px;
+}
